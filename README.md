@@ -8,7 +8,9 @@ I've measured the insertion speed of Dictionary compared to AVL tree and also te
 ## Dictionary ##
 
 Dictionary elements can be absolutely everything, key and value are Objects, so you can put almost everything in them. ***But I think it's not very safe...***
+
 I've included A linked list from my previous project to implement Closed-Addressing Dict. You can check it [Here](https://github.com/kuromii5/Doubly-Linked_List)
+
 The pair is represented as "Item" class, where you can see 3 fields - key, value, occupied. The third says about existing pair in dictionary slot.
 
 Both dictionaries have the next methods:
